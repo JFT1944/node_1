@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="styles.css" rel="stylesheet" />
+    <link href="footer.css" rel="stylesheet" />
+    <link href="queries.css" rel="stylesheet" />
+    <title>Train Lovers Adventures</title>
+    <meta name="description" content="Train Lovers Adventures is the most premeir train tours company throughout North America. Currently, we have services running throughout Alaska, Colorado and the North East.">
+    <meta name="keywords" content="Trains, Tours, Alaska, Colorado, New England">
+    <meta name="author" content="Justin P.">
+  </head>
+  <body>
+    <header>
+      <!-- <div id="loading-page">
+        <img
+          src="https://i.imgur.com/oVInM5J.gif"
+          alt=""
+          style="height: 108px;"
+        />
+      </div> -->
+      <div class="header-box">
+        <div class="logo-mark">
+          <img
+            src="https://i.imgur.com/1ZRoT3y.png"
+            alt="Train_lantern"
+            style="height: 100%;"
+            id="imp-lantern"
+          />
+        </div>
+        <div class="logo-type">
+          <a href="/" class="logo-mark-a">Train Lovers Adventures</a>
+        </div>
+        <div class="black-line"></div>
+        <div class="nav-word alaska" id="alaska">
+          <a href="/alaska.html">Alaska</a>
+        </div>
+        <div class="nav-word colorado">
+          <a href="/colorado-choice.html">Colorado</a>
+        </div>
+        <div class="nav-word new-england">
+          <a href="/new-england.html">New England</a>
+        </div>
+        <div class="nav-word contact-us">
+          <a href="contact-us.html">Contact Us</a>
+        </div>
+        <div class="nav-menu-button">
+          <button class="nav-menu-actual-button">Menu</button>
+        </div>
+      </div>
+      <div class="nav-menu" id="new-nav-menu">
+        <div class="new-alaska new-new-menu" id="">
+          <h3><a href="/alaska.html">Alaska</a></h3>
+        </div>
+        <div class="new-colorado new-new-menu">
+          <h3><a href="/colorado-choice.html">Colorado</a></h3>
+        </div>
+        <div class="new-new-england new-new-menu">
+          <h3><a href="/new-england.html">New England</a></h3>
+        </div>
+        <div class="new-contact-us new-new-menu">
+          <h3><a href="contact-us.html">Contact Us</a></h3>
+        </div>
+      </div>
+    </header>
+    <div class="background-image-one">
+      <div class="shading-box-one">
+        <h2>
+          Great Alaskan Rail <br /><span class="size-helper">Adventures</span>
+        </h2>
+        <h6>June 8 - 20, 2023</h6>
+        <h3>Experience Alaska from a whole new perspective!</h3>
+        <p>
+          You’ll experience magnificent scenery, amazing Alaskan wildlife, and
+          most importantly, beautifully crafted vintage trains!
+        </p>
+        <button
+          style="
+            border: 3px solid white;
+            border-radius: 29px;
+            height: 32px;
+            width: 138px;
+            background: whitesmoke;
+            /* color: black; */
+          "
+        >
+          <a
+            style="color: black; font-size: 15px; font-weight: bold;"
+            href="/alaska.html"
+          >
+            Details</a
+          >
+        </button>
+      </div>
+    </div>
+    <div class="moving-train">
+      <img
+        src="https://i.imgur.com/oVInM5J.gif"
+        alt="A train that moves across the screen."
+      />
+    </div>
+    <div class="background-image-two">
+      <div class="rotator">
+        <div class="shading-box-two" id="rotator-box-one">
+          <img
+            src="https://i.imgur.com/wn1YSIg.jpg"
+            alt="A train in the Rocky Moutains"
+            class="rotator-images"
+          />
+          <h3>The Great Colorado Mountain Tour</h3>
+          <p>
+            Designed with children in mind, there isn’t a better time to take
+            your child or grand-child!<br /><br />
+            Enjoy the beautiful trains, the magestic rocky mountains, and amazing
+            kid locations like TinyTown
+          </p>
+          <button
+            style="
+              border: 3px solid white;
+              border-radius: 29px;
+              height: 32px;
+              width: 138px;
+              background: whitesmoke;
+              /* color: black; */
+              margin-top: 7.5px;
+            "
+          >
+            <a
+              style="color: black; font-size: 15px; font-weight: bold;"
+              href="/colorado-choice.html"
+              >Learn More!</a
+            >
+          </button>
+        </div>
+        <!-- <div class="shading-box-two" id="rotator-box-two"></div>
+        <div class="shading-box-two" id="rotator-box-three"></div> -->
+      </div>
+    </div>
+    <footer style="margin-top: 0"</footer>
+    <script src="footer.js"></script>
+    <script src="menu.js"></script>
+  </body>
+</html>
